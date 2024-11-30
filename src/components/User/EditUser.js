@@ -13,7 +13,7 @@ const EditUser = () => {
 
   useEffect(() => {
     getUser();
-  }, []);
+  });
 
   const getUser = () => {
     axios
@@ -56,14 +56,14 @@ const EditUser = () => {
       .catch((error) => {
         setError(error.message);
         setIsLoading(false);
-      })
+      });
   };
 
   return (
     <div className="user-form">
       <div className="heading">
-      {isLoading && <Loader />}
-      {error && <p>Error: {error}</p>}
+        {isLoading && <Loader />}
+        {error && <p>Error: {error}</p>}
         <p>Edit Form</p>
       </div>
       <form onSubmit={handelSubmit}>

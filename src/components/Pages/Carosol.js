@@ -26,21 +26,21 @@ const Carasol = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src={'https://www.w3schools.com/bootstrap5/la.jpg'}
+              src={"https://www.w3schools.com/bootstrap5/la.jpg"}
               alt="Los Angeles"
               className="d-block"
             />
           </div>
           <div className="carousel-item">
             <img
-              src={'https://www.w3schools.com/bootstrap5/ny.jpg'}
+              src={"https://www.w3schools.com/bootstrap5/ny.jpg"}
               alt="Chicago"
               className="d-block"
             />
           </div>
           <div className="carousel-item">
             <img
-              src={'https://www.w3schools.com/bootstrap5/chicago.jpg'}
+              src={"https://www.w3schools.com/bootstrap5/chicago.jpg"}
               alt="New York"
               className="d-block"
             />
